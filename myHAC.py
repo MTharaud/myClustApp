@@ -3,8 +3,8 @@
 
 """
 Created on Tuesday April 06 2021
-Mickaël Tharaud
-Université de Paris / Institut de Physique du Globe de Paris
+Dr. Mickaël Tharaud
+Université Paris Cité / Institut de Physique du Globe de Paris
 """
 ############ LIBRAIRIES ############################################################################################################
 import os, glob

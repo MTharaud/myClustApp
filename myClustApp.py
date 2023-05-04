@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Created on Monday March 27 2023
+Dr. Mickaël Tharaud
+Université Paris Cité / Institut de Physique du Globe de Paris
+"""
+############ LIBRAIRIES ############################################################################################################
 import os
 from PyQt5.QtWidgets import QApplication, QFileDialog, QListWidget, QMainWindow, QWidget, QHBoxLayout, QGridLayout,QRadioButton, QPushButton, QLabel, QTextEdit, QLineEdit, QSizePolicy
 from PyQt5.QtGui import QDoubleValidator
@@ -9,6 +18,9 @@ from matplotlib.figure import Figure
 import myHAC
 import myDBScan
 
+#==================================================================================================== CLASSES & FUNCTIONS
+#====================================================================================================
+#====================================================================================================
 class MainWindow(QMainWindow):
 
     def __init__(self):
